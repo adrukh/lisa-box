@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "eslint --fix . && NODE_ENV=testing mocha",
-    "snyk-protect": "snyk protect -d",
+    "snyk-protect": "snyk protect",
     "prepublish": "npm run snyk-protect",
     "publishPatch": "npm version patch && npm run push",
     "publishMinor": "npm version minor && npm run push",
@@ -57,7 +57,7 @@
     "primus-rooms": "^3.4.1",
     "request": "^2.81.0",
     "rimraf": "^2.6.1",
-    "snyk": "^1.34.4",
+    "snyk": "^1.41.1",
     "sonus": "^0.1.8",
     "sqlite3": "^3.1.8",
     "tar-pack": "^3.4.0",
